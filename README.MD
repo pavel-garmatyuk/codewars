@@ -1,4 +1,4 @@
-## Tasks Java##
+## Tasks Java ##
 
 [8 kyu Myltiply](https://github.com/pavel-garmatyuk/codewars/blob/main/src/main/java/kyu8/Multiply/Multiply.java)
 
@@ -9,6 +9,6 @@
 [8 kyu Localize The Barycenter of a Triangle](https://github.com/pavel-garmatyuk/codewars/blob/8212ca7c1eab01f8d2a79e41e03992e5fe21ae41/src/main/java/kyu8/LocalizeTheBarycenterOfATriangle/Barycenter.java)
 
 
-## Tasks Perl##
+## Tasks Perl ##
 
 [8 kyu Myltiply](https://github.com/pavel-garmatyuk/codewars/blob/main/perl/kyu8/multiply.pl)
