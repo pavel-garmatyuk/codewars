@@ -1,33 +1,205 @@
-*.class
+### IDE ###
+# IntelliJ, PHPStorm, PyCharm, WebStorm
+.idea/
+*.iml
+*.ipr
+*.iws
+*.ids
+*.orig
+*.swp
+*.swo
+*.bak
+*.tmp
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# VSCode
+.vscode/
+*.code-workspace
 
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+# Eclipse
 .settings/
 .project
 .classpath
-.springBeans
-**/target/
-/commit.txt
-/*/logs/
-/*/wrk/
-effective-pom.xml
-effective-settings.xml
-/*/.gwt/
-.cache
-.idea/
-*.iml
-*.log
-*.lck
+.metadata/
+*.pydevproject
+
+# NetBeans
+nbproject/
+build/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+### Java ###
+*.class
 *.jar
-*/dependency-reduced-pom.xml
-node_modules
-/.idea/
-/target/
+*.war
+*.ear
+*.nar
+hs_err_pid*
+target/
+build/
+out/
+.gradle/
+!gradle-wrapper.jar
+
+### JVM Languages ###
+# Groovy
+*.groovy~
+.groovy/
+.grapes/
+
+# Grails
+grails-app/conf/hibernate/
+grails-app/conf/spring/
+web-app/WEB-INF/classes/
+web-app/WEB-INF/tld/
+
+# Scala
+*.class
+*.log
+.metals/
+.bloop/
+.metals.sbt/
+
+### Perl ###
+*.pm~
+*.cgi
+*.o
+*.so
+*.a
+*.bs
+*.out
+*.tmp
+blib/
+Makefile
+Makefile.old
+MYMETA.*
+
+### Python ###
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+pip-log.txt
+pip-delete-this-directory.txt
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+### Node.js ###
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.lock-wscript
+.env.local
+.env.development
+.env.test
+.env.production
+.npm
+.eslintcache
+.stylelintcache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+.next/
+.nuxt/
+.cache/
+.vuepress/dist/
+
+### System ###
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*~
+~$*
+*.sublime-workspace
+*.sublime-project
+
+### Logs ###
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+*.log.*
+logs/
+*.logs/
+*.lcov
+
+### Dependency directories ###
+jspm_packages/
+bower_components/
+.pnp/
+.pnp.js
+
+### Testing ###
+coverage/
+*.lcov
+.nyc_output/
+*.junit.xml
+test-results/
+*.tap
+
+### Build tools ###
+.ant/
+.apt_generated/
+.flyway/
+.fabric/
+.lein/
+.nvm/
+.recommenders/
+.sass-cache/
+.serverless/
+.vertx/
+
+### Editors ###
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list/
+tramp
+.\#*
+
+### OS ###
+# Linux
+*~
+
+# Windows
+[Tt]humbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac
+.AppleDouble
+.LSOverride
